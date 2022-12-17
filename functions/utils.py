@@ -25,7 +25,7 @@ def load_classifier_database() -> pd.DataFrame:
 def find_code_name_in_dict(code: str, code_base: pd.DataFrame) -> str:
     """
     For each code return its name.
-    Crop code while the name will be get.
+    Crop code while the name will be received.
     If there is no code in base, return  empty string"""
     result = ""
     while len(code.split(".")) > 1:
